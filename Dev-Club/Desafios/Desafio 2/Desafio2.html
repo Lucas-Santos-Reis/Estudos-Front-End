@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Desafio2.css">
+    <link rel="script" href="Desafio2.js">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <main>
+        <label> Converter
+            <select id="moeda-inicial">
+                <option class="real"> R$ Real Brasileiro (BRL)</option>
+                <option class="euro"> € Euro </option>
+                <option class="dolar"> US$ Dólar Americano </option>
+                <option class="libra"> £ Libra </option>
+
+            </select>
+        </label>
+
+        <label> Converter <b>para</b>
+            <select id="moeda-final">
+                <option class="dolar"> US$ Dólar Americano </option>
+                <option class="euro"> € Euro </option>
+                <option class="real"> R$ Real Brasileiro (BRL) </option>
+                <option class="libra"> £ Libra </option>
+
+            </select>
+        </label>
+        <label> Valor
+        <input id="dinheiro" placeholder="R$ 10.000,00">
+        </label>
+        <button> Converter </button>
+        <section>
+            <div>
+                <img src="./Arquivos/real.png" alt="logo moeda à converter">
+                <p>Real </p>
+                <p>R$ 0,00 </p>
+            </div>
+            <img src="./Arquivos/seta.png">
+            <div>
+                <img src="./Arquivos/dolar.png" alt="logo moeda convertida">
+                <p>Dolares Americanos </p>
+                <p>US$ 0,00 </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

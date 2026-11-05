@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+
+}
+body {
+    background-color: aquamarine;
+
+}
+
+main {
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px; /* 1° valor cima 2° valor esq/dir 3° valor baixo (segue o ponteiro do relógio) */
+}
+
+label {
+    color:rgb(97, 90, 90);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select, input {
+background-color: white;
+border: 1px solid #bbbbbb;
+border-radius: 4px;
+height: 48px;
+width: 100%;
+margin-bottom: 24px;
+appearance: none;
+padding-left: 20px;
+font-size: 16px;
+font-weight: 700;
+cursor: pointer;
+}
+
+button {
+    background-color: rgb(153, 3, 153);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{ opacity: 0.8;}
+button:active{opacity: 0.6;}
+
+section{
+border: 1px solid #772fd3;
+border-radius: 20px;
+margin-top: 36px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
